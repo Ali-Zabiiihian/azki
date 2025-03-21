@@ -1,0 +1,19 @@
+{
+  "name": "azki",
+  "version": "1.0.0",
+  "description": "azki.com project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ali-Zabiiihian/azki.com.git"
+  },
+  "author": "ali zabihian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ali-Zabiiihian/azki.com/issues"
+  },
+  "homepage": "https://github.com/Ali-Zabiiihian/azki.com#readme"
+}
