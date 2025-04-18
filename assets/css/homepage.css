@@ -1,12 +1,106 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-
+@import url('./settings.css');
+/* background image */
 .main-section {
     width: 100%;
     height: 704px;
+    padding-top: 16px;
     background-image: url(../images/background-homepage.webp);
+}
+
+/* navbar */
+.menu {
+    background-color: #fff;
+    width: 85vw;
+    height: 64px;
+    padding: 16px 2.5vw;
+    margin: auto;
+    border-radius: 16px;
+    box-shadow: 0 16px 12px -10px rgba(60, 64, 67, .08);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu .right {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.menu .left {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu .right .logo {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+
+.logo img:first-of-type {
+    width: 32px;
+    height: 32px;
+}
+
+.logo img:last-of-type {
+    width: 54px;
+    height: 24px;
+}
+
+.menu .right .services {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.services a {
+    text-decoration: none;
+    color: black;
+    font-family: medium;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.services a:hover {
+    color: #008FFF;
+}
+
+
+.left .support {
+    width: 50%;
+    height: 100%;
+    border: unset;
+    font-family: medium;
+    font-size: 15px;
+    color: #008FFF;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.left .login {
+    height: 100%;
+    padding: 6px 15px;
+    background-color: transparent;
+    border: 1px solid rgba(0, 143, 255, 0.5);
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.login span {
+    width: 100%;
+    line-height: 64px;
+    font-family: medium;
+    font-size: 15px;
+    font-weight: 500;
+    color: #008FFF;
 }
